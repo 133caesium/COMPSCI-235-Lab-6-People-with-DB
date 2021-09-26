@@ -4,6 +4,8 @@
 
 This is the repository for Lab 6 (Week 9) of COMPSCI 235 at the University of Auckland.
 
+In this weeks lab we will develop this simple web application further by using SQLAlchemy to integrate an SQLite Database to persist data.
+
 <a href="https://canvas.auckland.ac.nz/courses/60516/pages/lab-6-week-9-sqlalchemy-flask-databases">Further description and instructions for the lab can be found on the canvas page.</a>
 
 ## Installation
