@@ -1,10 +1,10 @@
-# COMPSCI-235-Lab-4-People
+# COMPSCI-235-Lab-6-People-with-DB
 
 ## Description
 
-This is the repository for Lab 4 (Week 6) of COMPSCI 235 at the University of Auckland.
+This is the repository for Lab 6 (Week 9) of COMPSCI 235 at the University of Auckland.
 
-<a href="https://canvas.auckland.ac.nz/courses/60516/pages/lab-4-week-6-config-templates-blueprints-wtforms?module_item_id=1258645">Further description and instructions for the lab can be found on the canvas page.</a>
+<a href="https://canvas.auckland.ac.nz/courses/60516/pages/lab-6-week-9-sqlalchemy-flask-databases">Further description and instructions for the lab can be found on the canvas page.</a>
 
 ## Installation
 
