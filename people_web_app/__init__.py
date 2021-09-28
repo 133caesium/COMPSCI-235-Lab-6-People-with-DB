@@ -10,6 +10,8 @@ def create_app():
     # Configure the app from configuration-file settings.
     app.config.from_object('config.Config')
 
+    db = SQLAlchemy(app)  #this creates the SQLAlchemy database instance.
+
     repo.repo_instance = repo.PeopleRepository(
         Person(74633, 'Julius', 'Caeser'),
         Person(88337, 'Genghis', 'Khan'),
