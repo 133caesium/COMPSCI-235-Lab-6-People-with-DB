@@ -21,6 +21,7 @@ def home():
 
 @people_blueprint.route('/list')
 def list_people():
+    repo.repo_instance.update_repo()
     return render_template(
         'list_people.html',
         people=repo.repo_instance,
