@@ -1,5 +1,5 @@
 from flask import Flask, request, url_for
-
+from flask_sqlalchemy import SQLAlchemy
 import people_web_app.adapters.repository as repo
 from people_web_app.domain.model import Person
 
