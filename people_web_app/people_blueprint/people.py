@@ -34,6 +34,7 @@ def list_people():
 def find_person():
     form = SearchForm()
     if form.validate_on_submit():
+        repo.repo_instance.update_repo()
         return render_template(
             'list_person.html',
             person = next((person for person in repo.repo_instance if person.id_number == form.person_id.data), None)
